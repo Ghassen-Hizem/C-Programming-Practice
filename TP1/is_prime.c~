@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+  int a;
+
+  printf("donner l'entier a saisir");
+  scanf("%d",a);
+
+  printf("le nombre saisie est : %d ",a);
+
+}
