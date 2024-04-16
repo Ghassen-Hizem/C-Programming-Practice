@@ -76,7 +76,7 @@ int main( int argc, char *argv[])
     /*
      * si il'ya une erreur d'envoie dans le message , on supprime la connection établie
      * et on retourne -1 a la fonction main
-     * on a envoyé le message au serveur
+     * on a envoyé le message au serveur avec la fonction send()
      */
 
     if(send(sock,message,strlen(message),0)<0) {
