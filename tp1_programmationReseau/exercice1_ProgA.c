@@ -11,7 +11,7 @@
 //utils pour la library socket
 #include <arpa/inet.h>
 #include <unistd.h>
-
+#include <semaphore.h>
 #define MYMSGLEN 2000
 
 int main( int argc, char *argv[])
@@ -84,6 +84,7 @@ int main( int argc, char *argv[])
         close(sock);
         return -1;
     }
+
 
     /*
      * recevoir la réponse de serveur et affichage de l'output

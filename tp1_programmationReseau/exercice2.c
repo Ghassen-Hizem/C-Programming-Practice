@@ -113,8 +113,7 @@ int main(int argc, char *argv[]) {
     //fermeture de la connection après avoir recu la réponse
     close(sock);
     return 0;
-
-
+    
 }
 
 
